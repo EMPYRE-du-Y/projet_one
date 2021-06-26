@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header > img {
+  width: 60px;
+  height: 60px;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+nav > ul {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+}
+
+section {
+  height: 70vh;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
